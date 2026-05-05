@@ -1,16 +1,16 @@
 # Sistema de Controle de Rega 
 
-Esse projeto começou de uma necessidade bem simples: organizar melhor a rega das minhas próprias plantas.
+Esse projeto surgiu de uma necessidade simples do meu dia a dia: organizar melhor a rega das minhas próprias plantas.
 
-Tenho um pequeno jardim em casa e, com o tempo, fui percebendo como era fácil esquecer de regar algumas plantas ou até acabar regando mais do que o necessário. Foi daí que surgiu a ideia de criar um sistema que me ajudasse nesse controle.
+Com o tempo, percebi como era fácil esquecer de regar algumas plantas ou até acabar regando mais do que o necessário. Foi a partir disso que desenvolvi esse sistema para me ajudar nesse controle.
 
 O sistema foi desenvolvido em Python e utiliza um banco de dados MySQL para armazenar informações como nome da planta, local e frequência de rega.
 
 ## O que o sistema faz
 
 - Verifica automaticamente quais plantas precisam ser regadas no dia  
-- Mostra um relatório simples no terminal  
-- Utiliza uma view no banco de dados para facilitar essa verificação  
+- Exibe um relatório simples no terminal  
+- Utiliza uma view no banco de dados para facilitar a consulta  
 
 ## Tecnologias utilizadas
 
@@ -27,11 +27,14 @@ Para executar o sistema, é necessário:
 3. Atualizar a senha do banco no arquivo `alerta.py`  
 4. Executar o script no terminal  
 
-## Observação
+## Considerações finais
 
-O projeto foi adaptado posteriormente para um trabalho acadêmico, mas a ideia original veio de uma necessidade real do dia a dia.  
+O projeto foi adaptado posteriormente para um trabalho acadêmico, mas a ideia original surgiu de uma necessidade real do dia a dia.
 
-Com o tempo, ele pode ser melhorado com novas funcionalidades, como integração com sensores ou uma interface gráfica.
+Com o tempo, pode ser aprimorado com novas funcionalidades, como integração com sensores ou desenvolvimento de uma interface gráfica.
 
 
-Projeto desenvolvido por Rosa Maria de Oliveira Neves 
+
+Desenvolvido por Rosa Maria de Oliveira Neves – 2026
+
+

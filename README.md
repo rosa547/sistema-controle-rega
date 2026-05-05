@@ -24,7 +24,7 @@ Para executar o sistema, é necessário:
 
 1. Ter o MySQL instalado e configurado  
 2. Criar o banco de dados com a estrutura utilizada no projeto  
-3. Atualizar a senha do banco no arquivo `alerta.py`  
+3.  Atualizar a senha do banco no arquivo verificador_rega.py 
 4. Executar o script no terminal  
 
 ## Considerações finais

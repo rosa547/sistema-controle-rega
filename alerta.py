@@ -23,7 +23,7 @@ def verificar_rega():
         config = {
             'host': 'localhost',
             'user': 'root',
-            'password': 'bianck98',
+            'password': 'sua_senha_aqui',
             'database': 'meu_refugio'
         }
         
@@ -51,8 +51,19 @@ def verificar_rega():
             elif isinstance(ultima_rega, datetime):
                 ultima_rega = ultima_rega.date()
 
-            # Regra: 10 dias para suculentas / 5 dias para folhagens
-            intervalo = 10 if str(tipo).lower() == 'suculenta' else 5
+            tipo = str(tipo).lower()
+
+            if tipo == 'folhagem':
+                intervalo = 5
+            elif tipo == 'suculenta':
+                intervalo = 10
+            elif tipo == 'cacto':
+                intervalo = 15
+            elif tipo == 'flor':
+                intervalo = 5
+            else:
+                intervalo = 5
+
             data_limite = ultima_rega + timedelta(days=intervalo)
 
             if data_limite <= data_hoje:

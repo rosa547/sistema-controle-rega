@@ -24,7 +24,7 @@ O sistema realiza uma varredura automatizada na tabela de dados, extrai o histó
 
 ### Funcionalidades do Script Python:
 1. **Conexão Dinâmica:** Estabelece comunicação segura com o banco de dados "meu_refugio".
-2. **Processamento e Análise** Calcula em tempo real, através do módulo datetime, a data limite de rega de cada planta conforme sua tipologia (folhagem, flor, suculenta ou cacto), identificando automaticamente situações de atraso.
+2. **Processamento e Análise:** Calcula em tempo real, através do módulo datetime, a data limite de rega de cada planta conforme sua tipologia (folhagem, flor, suculenta ou cacto), identificando automaticamente situações de atraso.
 3. **Mecanismo de Alerta:** Dispara avisos de **REGA URGENTE** detalhando o nome da planta e sua localização exata.
 4. **Auditoria (Logs):** Grava automaticamente o resultado de cada varredura em um arquivo físico chamado **registro_rega.txt**, gerando histórico de monitoramento.
 

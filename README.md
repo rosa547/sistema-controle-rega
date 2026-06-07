@@ -17,12 +17,14 @@ Originalmente concebido para uso pessoal, o sistema foi expandido e refinado com
 
 O sistema realiza uma varredura automatizada na tabela de dados, extrai o histórico de cada planta e aplica critérios específicos baseados em sua tipologia para determinar a necessidade de intervenção:
 
-* **Folhagens:** Intervalo máximo de segurança de **5 dias** entre as regas.
-* **Suculentas:** Intervalo máximo de segurança de **10 dias** entre as regas.
+* Folhagens: Intervalo máximo de segurança de 5 dias entre as regas.
+* Flores: Intervalo máximo de segurança de 5 dias entre as regas.
+* Suculentas: Intervalo máximo de segurança de 10 dias entre as regas.
+* Cactos: Intervalo máximo de segurança de 15 dias entre as regas.
 
 ### Funcionalidades do Script Python:
 1. **Conexão Dinâmica:** Estabelece comunicação segura com o banco de dados "meu_refugio".
-2. **Processamento e Análise:** Calcula em tempo real, através do módulo "datetime", se a diferença entre a data atual e a "ultima_rega" estourou o limite operacional da planta.
+2. **Processamento e análise** Calcula em tempo real, através do módulo datetime, a data limite de rega de cada planta conforme sua tipologia (folhagem, flor, suculenta ou cacto), identificando automaticamente situações de atraso.
 3. **Mecanismo de Alerta:** Dispara avisos de **REGA URGENTE** detalhando o nome da planta e sua localização exata.
 4. **Auditoria (Logs):** Grava automaticamente o resultado de cada varredura em um arquivo físico chamado **registro_rega.txt**, gerando histórico de monitoramento.
 
